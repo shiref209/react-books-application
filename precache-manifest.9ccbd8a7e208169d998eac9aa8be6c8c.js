@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/react-gh-pages/static/media/add.bb9363b8.svg"
   },
   {
-    "revision": "3687aa988bec28f17ae39153db1646c3",
-    "url": "/react-gh-pages/static/media/arrow-back.3687aa98.svg"
-  },
-  {
     "revision": "78c6f53b2342643639fe1cbaf171bf47",
     "url": "/react-gh-pages/static/media/arrow-drop-down.78c6f53b.svg"
+  },
+  {
+    "revision": "3687aa988bec28f17ae39153db1646c3",
+    "url": "/react-gh-pages/static/media/arrow-back.3687aa98.svg"
   },
   {
     "revision": "4793fe6089c8e71908a94eff221adecf",
