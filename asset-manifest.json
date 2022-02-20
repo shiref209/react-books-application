@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-gh-pages/static/css/main.5e289e70.chunk.css",
-  "main.js": "/react-gh-pages/static/js/main.889c4f22.chunk.js",
-  "main.js.map": "/react-gh-pages/static/js/main.889c4f22.chunk.js.map",
-  "static/js/1.a1aca80d.chunk.js": "/react-gh-pages/static/js/1.a1aca80d.chunk.js",
-  "static/js/1.a1aca80d.chunk.js.map": "/react-gh-pages/static/js/1.a1aca80d.chunk.js.map",
-  "runtime~main.js": "/react-gh-pages/static/js/runtime~main.346eb3ee.js",
-  "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.346eb3ee.js.map",
-  "static/media/App.css": "/react-gh-pages/static/media/arrow-back.3687aa98.svg",
-  "static/css/main.5e289e70.chunk.css.map": "/react-gh-pages/static/css/main.5e289e70.chunk.css.map",
-  "index.html": "/react-gh-pages/index.html",
-  "precache-manifest.9ccbd8a7e208169d998eac9aa8be6c8c.js": "/react-gh-pages/precache-manifest.9ccbd8a7e208169d998eac9aa8be6c8c.js",
-  "service-worker.js": "/react-gh-pages/service-worker.js"
+  "main.css": "/shiref209/react-books-application.git/static/css/main.caa358d1.chunk.css",
+  "main.js": "/shiref209/react-books-application.git/static/js/main.1313be7b.chunk.js",
+  "main.js.map": "/shiref209/react-books-application.git/static/js/main.1313be7b.chunk.js.map",
+  "static/js/1.a1aca80d.chunk.js": "/shiref209/react-books-application.git/static/js/1.a1aca80d.chunk.js",
+  "static/js/1.a1aca80d.chunk.js.map": "/shiref209/react-books-application.git/static/js/1.a1aca80d.chunk.js.map",
+  "runtime~main.js": "/shiref209/react-books-application.git/static/js/runtime~main.a7c82ef0.js",
+  "runtime~main.js.map": "/shiref209/react-books-application.git/static/js/runtime~main.a7c82ef0.js.map",
+  "static/media/App.css": "/shiref209/react-books-application.git/static/media/arrow-drop-down.78c6f53b.svg",
+  "static/css/main.caa358d1.chunk.css.map": "/shiref209/react-books-application.git/static/css/main.caa358d1.chunk.css.map",
+  "index.html": "/shiref209/react-books-application.git/index.html",
+  "precache-manifest.9c3bb980c68c1936bb03fb8275385ecd.js": "/shiref209/react-books-application.git/precache-manifest.9c3bb980c68c1936bb03fb8275385ecd.js",
+  "service-worker.js": "/shiref209/react-books-application.git/service-worker.js"
 }
