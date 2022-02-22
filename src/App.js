@@ -13,11 +13,12 @@ class BooksApp extends React.Component {
         isChanged:false
       }
     }
+    
     // function to left the state up till app.js to handle the changes
     handleShelfChange=(change,changedBook)=>{
       
       // calling update() with the book having changed to update the backend and then recall the books again to update the state
-       BooksAPI.update(changedBook[0],change).then(BooksAPI.getAll().then(data=>{
+      BooksAPI.update(changedBook[0],change).then(()=>BooksAPI.getAll().then(data=>{
         this.setState(()=>({
           books:data,
           isChanged:false
@@ -26,19 +27,29 @@ class BooksApp extends React.Component {
       this.setState(()=>({isChanged:true}));
     }
     // calling componentDidMount to fetch books for first time app runs
-    componentDidMount(){
-      BooksAPI.getAll().then(data=>{
+    async componentDidMount(){
+      const data=await BooksAPI.getAll();
         this.setState(()=>({
           books:data
-        }))    
-      })
-    }
+          
+        }))   
+      }
+
+      // shelfById= !this.state.isChanged&&this.state.books.map((book)=> ({id:book.id,shelf:book.shelf}))
+      
+
+
+    
   render() {
     return (
           <div className="app">
             <Switch>
               <Route exact path='/search'>
-                  <Search onChange={this.handleShelfChange}/>
+                  <Search onChange={this.handleShelfChange}
+                  id={this.state.books.id}
+                  // filtering books every time change occurs
+                  shelf={!this.state.isChanged&&this.state.books.map((book)=> ({id:book.id,shelf:book.shelf}))}
+                  />
                 </Route>
                 <Route path='/'>
                   <div className="list-books">

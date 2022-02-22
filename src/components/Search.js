@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import * as BooksAPI from '../BooksAPI';
 import Book from "./Book";
+
 class Search extends Component{
     constructor(props){
         super(props);
@@ -13,12 +14,27 @@ class Search extends Component{
     }
     handleShelfChange=(change,bookId)=>{
         let changedBook=this.state.books.filter((book)=>(bookId ===book.id))
-        this.props.onChange(change,changedBook);}
+        this.props.onChange(change,changedBook);
+        BooksAPI.update(changedBook,change);
+      
+      }
+      
 
     inputChangeHandler=(event)=>{
         let value=event.target.value.toLowerCase().trim();
         BooksAPI.search(value).then((data)=>
         {
+          // handling the shelf if shown in homepage according to user's input
+          for (const i of this.props.shelf){
+            let index=i.id;
+            data.filter((book)=>{
+              if (book.id===index){
+                return book.shelf=i.shelf
+              }
+              return book;
+            })
+            
+          }
           // Handling error from search using isError from state
           if (data.error){
             this.setState(()=>({isError:true}))
@@ -26,14 +42,17 @@ class Search extends Component{
           else{
             this.setState(()=>({
               books:data,
-              isError:false
-            }))
+              isError:false,
+              
+            }));
+            
           }
           })
         .catch(error=>{
           this.setState(()=>({isError:true}))
         })
     }
+    
     render(){
         return(
             
