@@ -1,14 +1,14 @@
 {
-  "main.css": "/shiref209/react-books-application.git/static/css/main.caa358d1.chunk.css",
-  "main.js": "/shiref209/react-books-application.git/static/js/main.1313be7b.chunk.js",
-  "main.js.map": "/shiref209/react-books-application.git/static/js/main.1313be7b.chunk.js.map",
-  "static/js/1.a1aca80d.chunk.js": "/shiref209/react-books-application.git/static/js/1.a1aca80d.chunk.js",
-  "static/js/1.a1aca80d.chunk.js.map": "/shiref209/react-books-application.git/static/js/1.a1aca80d.chunk.js.map",
-  "runtime~main.js": "/shiref209/react-books-application.git/static/js/runtime~main.a7c82ef0.js",
-  "runtime~main.js.map": "/shiref209/react-books-application.git/static/js/runtime~main.a7c82ef0.js.map",
-  "static/media/App.css": "/shiref209/react-books-application.git/static/media/arrow-drop-down.78c6f53b.svg",
-  "static/css/main.caa358d1.chunk.css.map": "/shiref209/react-books-application.git/static/css/main.caa358d1.chunk.css.map",
-  "index.html": "/shiref209/react-books-application.git/index.html",
-  "precache-manifest.9c3bb980c68c1936bb03fb8275385ecd.js": "/shiref209/react-books-application.git/precache-manifest.9c3bb980c68c1936bb03fb8275385ecd.js",
-  "service-worker.js": "/shiref209/react-books-application.git/service-worker.js"
+  "main.css": "/react-books-application/static/css/main.1763232f.chunk.css",
+  "main.js": "/react-books-application/static/js/main.96e83094.chunk.js",
+  "main.js.map": "/react-books-application/static/js/main.96e83094.chunk.js.map",
+  "static/js/1.0033e06d.chunk.js": "/react-books-application/static/js/1.0033e06d.chunk.js",
+  "static/js/1.0033e06d.chunk.js.map": "/react-books-application/static/js/1.0033e06d.chunk.js.map",
+  "runtime~main.js": "/react-books-application/static/js/runtime~main.2b890003.js",
+  "runtime~main.js.map": "/react-books-application/static/js/runtime~main.2b890003.js.map",
+  "static/media/App.css": "/react-books-application/static/media/arrow-drop-down.78c6f53b.svg",
+  "static/css/main.1763232f.chunk.css.map": "/react-books-application/static/css/main.1763232f.chunk.css.map",
+  "index.html": "/react-books-application/index.html",
+  "precache-manifest.3ab76c19eebe01e45cdb17945960e914.js": "/react-books-application/precache-manifest.3ab76c19eebe01e45cdb17945960e914.js",
+  "service-worker.js": "/react-books-application/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shiref209/react-books-application.git/precache-manifest.9c3bb980c68c1936bb03fb8275385ecd.js"
+  "/react-books-application/precache-manifest.3ab76c19eebe01e45cdb17945960e914.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/shiref209/react-books-application.git/index.html", {
+workbox.routing.registerNavigationRoute("/react-books-application/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
